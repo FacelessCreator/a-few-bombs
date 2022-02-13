@@ -5,7 +5,7 @@ Every bomb has it's own ```test```. Tests log important information in ```csv```
 
 See my experience running these tests in ```docs```.
 
-## Forkbomb
+## Forkbomb (```make test-forkbomb```)
 This bomb named after the function 'fork' in GNU/Linux. The process clones itself for infinity. Operation systems have limit on process count.
 
 Possible aftermath:
@@ -14,7 +14,7 @@ Possible aftermath:
 - impossible to reboot carefully (MIUI 10 - Android 8)
 - something else?
 
-## Membomb
+## Membomb (```make test-membomb```)
 Eats all of your memory. Save your SSD and do ```swapoff -a```. Usually when system is out of memory, this bomb is being killed. But we still has some special effects.
 
 Possible aftermath:

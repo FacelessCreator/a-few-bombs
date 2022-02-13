@@ -1,12 +1,10 @@
-.PHONY: clear all test test-forkbomb
+.PHONY: clear all test-forkbomb test-membomb
 
 all:
-	echo "Nothing at the moment"
+	echo "view README and select test to run"
 
 clear:
 	rm -r build log
-
-test: test-forkbomb
 
 test-forkbomb: build/test-forkbomb build/forkbomb
 	build/test-forkbomb
