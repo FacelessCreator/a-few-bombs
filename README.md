@@ -15,8 +15,9 @@ Possible aftermath:
 - something else?
 
 ## Membomb
-Eats all of your memory. Save your SSD and do ```swapoff -a```.
+Eats all of your memory. Save your SSD and do ```swapoff -a```. Usually when system is out of memory, this bomb is being killed. But we still has some special effects.
 
 Possible aftermath:
-- other processes die
+- other processes die (MIUI 10 - Android 8)
+- music stumbles (archlinux)
 - something else?
